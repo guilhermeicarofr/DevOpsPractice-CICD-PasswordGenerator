@@ -12,7 +12,7 @@ jobs:
           envkey_POSTGRES_USER: "postgres"
           envkey_POSTGRES_PASSWORD: "postgres"
           envkey_POSTGRES_DB: "passwords"
-          envkey_DATABASE_URL: "postgresql://postgres:postgres@postgres_sorteador_db_live:5432/students_live"
+          envkey_DATABASE_URL: "postgresql://postgres:postgres@postgres:5432/passwords"
           directory: back-end
           file_name: .env.test
       - name: Run tests
